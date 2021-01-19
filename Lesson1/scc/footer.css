@@ -1,0 +1,122 @@
+.footer {
+    width: 100%;
+}
+
+.footer__wrapper {
+    width: 100%;
+    background-color: #3a3e64;
+}
+
+.footer__information {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 72px 15px 87px;
+
+}
+
+.footer__card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__location {
+    max-width: 148px;
+    text-align: center;
+}
+
+.footer__location h2 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 22px;
+}
+
+.footer__location p {
+    opacity: 0.5;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer__icon {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer__icon h2 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    width: 130px;
+    margin: 0 auto;
+}
+
+.footer__item {
+    height: 41px;
+    width: 41px;
+    border: 2px solid  #c6cacc;
+    text-align: center;
+    line-height: 41px;
+    color: #c6cacc;
+}
+
+.footer__about {
+    text-align: center;
+    max-width: 328px;
+}
+
+.footer__about h2 {
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-bottom: 21px;
+}
+
+.footer__about p {
+    opacity: 0.5;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.footer__end {
+    width: 100%;
+    background-color: #313454;
+}
+
+.footer__end p {
+    width: 315px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #808080;
+    padding: 30px 0;
+}
+
+.kamal {
+    color: #ffffff;
+}
+
+.heart {
+    color: #e84545;
+}

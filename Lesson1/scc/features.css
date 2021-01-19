@@ -1,0 +1,39 @@
+.features {
+    width: 100%;
+}
+
+#features__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 -15px;
+    padding: 120px 0 46px;
+}
+
+.features__card {
+    width: 296px;
+    text-align: center;
+    margin: 0 15px;
+}
+
+.features__icon {
+    height: 60px;
+}
+
+.features__title {
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2d3033;
+    padding: 34px 0 25px;
+}
+
+.features__text {
+    font-family: "Raleway";
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #6c7279;
+    padding-bottom: 74px;
+}
