@@ -1,0 +1,117 @@
+.header {
+    background-image: url(/img/fullscrean.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* min-height: 100vh; */
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100%;
+    position: relative;
+}
+
+.header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(14, 3, 37, 0.85);
+    z-index: 2;
+}
+
+.fullscreen {
+    /* max-width: 1170px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    position: relative;
+    z-index: 3;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 0 rgba(147, 147, 151, 0.16);
+    position: relative;
+    z-index: 4;
+}
+
+.header__img {
+    padding: 39px 0;
+    z-index: 3;
+}
+
+.header__list {
+    display: flex;
+    justify-content: center;
+}
+
+.header__item a{
+    margin-left: 60px;
+    opacity: 0.74;
+    font-family: 'Raleway';
+    font-size: 13px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__page {
+    min-height: calc(100vh - 104px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__title {
+    max-width: 870px;
+    font-family: 'Open Sans';
+    font-size: 65px;
+    line-height: 71px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    /* padding-top: 155px; */
+}
+
+.header__text {
+    max-width: 916px;
+    font-family: 'Raleway';
+    font-size: 22px;
+    line-height: 33px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 41px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+}
+
+.header__button {
+    margin: 0 auto;
+    width: 201px;
+    height: 47px;
+    text-align: center;
+    background-color:#e84545;
+    font-family: 'Raleway';
+    font-size: 13px;
+    line-height: 47px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.header__link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+.header__burger {
+    display: none;
+}

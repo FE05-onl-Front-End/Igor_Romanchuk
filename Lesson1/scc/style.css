@@ -1,0 +1,28 @@
+@import url('/scc/header.css');
+@import url('/scc/features.css');
+@import url('/scc/photo.css');
+@import url('/scc/collective.css');
+@import url('/scc/quote.css');
+@import url('/scc/download.css');
+@import url('/scc/footer.css');
+@import url('/scc/media.css');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
